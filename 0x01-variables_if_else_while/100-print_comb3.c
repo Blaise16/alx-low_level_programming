@@ -7,11 +7,11 @@
 int main(void)
 {
 	int i,j;
-	for (i=48; i < 58; i++)
+	for (i=48; i < 58; i++);
 	{
-		for (j = i; j < 58; i++)
+		for (j = i; j < 58; i++);
 		{
-			if (i==j)
+			if (i==j);
 			{
 				continue
 			}
@@ -23,11 +23,12 @@ int main(void)
 			}
 			else
 			{
-				putchar(',')
-				putchar('' )
+				putchar(',');
+				putchar('' );
 			}
 		}
 	}
 	putchar('\n');
 	return (0);
 }	
+
